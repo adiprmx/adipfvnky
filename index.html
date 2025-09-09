@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>adip fvnky</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav>
+    <div class="logo">Adip Fvnky</div>
+    <ul>
+      <li><a href="#home">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#music">music</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <div class="toggle" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <!-- hero -->
+  <section id="home" class="hero">
+    <h1>Welcome to <span>Adip Fvnky</span></h1>
+    <p>vibes keren, ga pasaran, penuh energi</p>
+    <button onclick="scrollToSection('music')">Music</button>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="about">
+    <h2>Tentang aku</h2>
+    <p>Aku adip, pembawa vibes fvnky yang anti mainstream, bikin lu goyang tanpa harus mikir ribet. stay chill, stay funky.</p>
+  </section>
+
+<!-- music -->
+<section id="music" class="music">
+  <h2>Playlist</h2>
+  <div class="card-container">
+    <div class="card" data-audio="songs/DJ TAN FOCIL BREAKBEAT ADIP STYLE VIRAL TIKTOK 2025 !!!.mp3"></div>
+    <div class="card" data-audio="songs/beat keren.mp3"></div>
+    <div class="card" data-audio="songs/relax chill.mp3"></div>
+    <div class="card" data-audio="songs/vibes malam.mp3"></div>
+    <div class="card" data-audio="songs/sunset jam.mp3"></div>
+    <div class="card" data-audio="songs/flow santai.mp3"></div>
+  </div>
+</section>
+
+  <!-- contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Adip Fvnky - All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
